@@ -5,6 +5,7 @@ import java.io.FileReader;
 import java.io.IOException;
 
 public class SearchFile {
+
     private String file = "person.txt";
 
     public SearchFile()
@@ -47,11 +48,9 @@ public class SearchFile {
                 }
             }
 
-            if(br != null)
-                br.close();
 
-            if(fr != null)
-                fr.close();
+            br.close();
+            fr.close();
 
 
         }
