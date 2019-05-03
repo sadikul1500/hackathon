@@ -14,6 +14,11 @@ public class MyFileWriter {
         this.file = file;
     }
 
+    public void setFile(String file)
+    {
+        this.file = file;
+    }
+
     public void writeToFile(String content,boolean flag)
     {
         BufferedWriter bw = null;
