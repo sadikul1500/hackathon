@@ -78,6 +78,9 @@ public class Main {
                         str1 = din.readUTF();
                         System.out.println("client says : " + str1);
 
+                        s1 = search.SearchInFile(number);
+                        temp = s1.split(",");
+
                         if(str1.equals("1"))
                         {
 
